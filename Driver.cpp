@@ -7,5 +7,6 @@ using namespace std;
 int main() {
   Snake snake;
   snake.runGame();
-
+  
+  return 0;
 }
