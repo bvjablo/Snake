@@ -228,6 +228,7 @@ void Snake::keyCheck() {
 void Snake::generateFood() {
   int y, x;
   bool isTaken = true;
+  // loop until blank space
   while (isTaken) {
     //only generate between 1 and 13 since 0 and 14 are used for the game borders
     y = rand()%12 +1;
