@@ -43,7 +43,7 @@ void Snake::setDifficulty() {
     printw("\nEasy Mode Selected\n");
   }
   else if ((userInput == 'C') || (userInput == 'c')) {
-    gamePace = 100000;
+    gamePace = 120000;
     chaosMode = true;
     printw("\nChaos Mode Selected.... Good Luck\n");
   }
