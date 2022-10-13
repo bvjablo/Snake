@@ -5,6 +5,7 @@
 using namespace std;
 
 int main() {
+  //initialize game object
   Snake snake;
   snake.runGame();
   
