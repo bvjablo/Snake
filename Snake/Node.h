@@ -4,6 +4,7 @@
 #include <iostream>
 using namespace std;
 
+//used by Queue
 struct Node {
   int row;
   int column;
